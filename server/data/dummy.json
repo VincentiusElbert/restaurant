@@ -1,0 +1,150 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Nearby",
+      "slug": "nearby"
+    },
+    {
+      "id": 2,
+      "name": "Discount",
+      "slug": "discount"
+    },
+    {
+      "id": 3,
+      "name": "Best Seller",
+      "slug": "best-seller"
+    },
+    {
+      "id": 4,
+      "name": "Delivery",
+      "slug": "delivery"
+    },
+    {
+      "id": 5,
+      "name": "Lunch",
+      "slug": "lunch"
+    }
+  ],
+  "restaurants": [
+    {
+      "id": 1,
+      "name": "Burger King",
+      "city": "Jakarta Selatan",
+      "rating": 4.9,
+      "images": [
+        "https://images.unsplash.com/photo-1571091718767-18b5b1457add?q=80&w=800&auto=format&fit=crop"
+      ],
+      "categories": [
+        1,
+        3
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": "bf844403-3ae4-45d9-89aa-f647526c8fe7",
+      "items": [
+        {
+          "id": 55,
+          "name": "Handmade Silk Bike",
+          "price": 139161,
+          "qty": 1,
+          "image": "https://foodish-api.com/images/biryani/biryani3.jpg",
+          "restaurantId": 30
+        },
+        {
+          "id": 56,
+          "name": "Rustic Bronze Pizza",
+          "price": 64289,
+          "qty": 1,
+          "image": "https://foodish-api.com/images/rice/rice5.jpg",
+          "restaurantId": 30
+        },
+        {
+          "id": 57,
+          "name": "Licensed Marble Gloves",
+          "price": 61360,
+          "qty": 1,
+          "image": "https://foodish-api.com/images/biryani/biryani3.jpg",
+          "restaurantId": 30
+        },
+        {
+          "id": 58,
+          "name": "Awesome Plastic Gloves",
+          "price": 77599,
+          "qty": 1,
+          "image": "https://foodish-api.com/images/rice/rice5.jpg",
+          "restaurantId": 30
+        },
+        {
+          "id": 61,
+          "name": "Fresh Rubber Towels",
+          "price": 65679,
+          "qty": 1,
+          "image": "https://foodish-api.com/images/butter-chicken/butter-chicken2.jpg",
+          "restaurantId": 30
+        },
+        {
+          "id": 60,
+          "name": "Gorgeous Concrete Computer",
+          "price": 30599,
+          "qty": 1,
+          "image": "https://foodish-api.com/images/biryani/biryani3.jpg",
+          "restaurantId": 30
+        },
+        {
+          "id": 59,
+          "name": "Intelligent Gold Salad",
+          "price": 80759,
+          "qty": 1,
+          "image": "https://foodish-api.com/images/biryani/biryani3.jpg",
+          "restaurantId": 30
+        }
+      ],
+      "total": 519446,
+      "customerName": "vincentius elbert",
+      "phone": "081369235555",
+      "address": "Jl.gajah Mada Blok Ni 28f, Indo",
+      "createdAt": "2025-09-17T14:44:33.703Z",
+      "status": "preparing"
+    },
+    {
+      "id": "e6d9d4e4-88b9-493f-ab63-ff8426192fbb",
+      "items": [
+        {
+          "id": 132,
+          "name": "Sleek Gold Shirt",
+          "price": 76672,
+          "qty": 1,
+          "image": "https://foodish-api.com/images/prawns/prawns4.jpg",
+          "restaurantId": 42
+        }
+      ],
+      "total": 76672,
+      "customerName": "vincentius elbert",
+      "phone": "081369235555",
+      "address": "Jl.gajah Mada Blok Ni 28f, Indo",
+      "createdAt": "2025-09-17T14:42:45.199Z",
+      "status": "done"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "9d4f3d65-9a83-453f-b523-6d0abe59bd14",
+      "orderId": "e6d9d4e4-88b9-493f-ab63-ff8426192fbb",
+      "restaurantId": null,
+      "rating": 4,
+      "comment": "",
+      "createdAt": "2025-09-17T14:42:55.630Z"
+    },
+    {
+      "id": "c1352deb-5cb5-40d6-b72d-e7a74c2dc633",
+      "orderId": "e6d9d4e4-88b9-493f-ab63-ff8426192fbb",
+      "restaurantId": null,
+      "rating": 5,
+      "comment": "gak enak",
+      "createdAt": "2025-09-17T14:43:21.102Z"
+    }
+  ]
+}
